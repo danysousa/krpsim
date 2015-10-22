@@ -15,8 +15,12 @@ def main( ):
 
 	m = Manager( c.stock, c.process )
 
-	m.callProcess("achat_materiel")
-	m.callProcess("realisation_produit")
-	m.callProcess("livraison")
+	m.linkStock( )
+
+	print("")
+	m.displayStock()
+#	m.callProcess("cuisson_1")
+#	m.callProcess("cuisson_2")
+#	m.callProcess("cuisson_3")
 
 main( )

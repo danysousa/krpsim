@@ -19,7 +19,7 @@ class Kprocess(object):
 			for stock in allStock:
 				if ( key == stock.name ):
 					stock.add( value )
-		return ( allStock) 
+		return ( allStock ) 
 
 
 
